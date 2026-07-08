@@ -26,7 +26,14 @@ import time
 
 
 
-print("Hello")
-time.sleep(3)
-print("This is printed after 3 seconds")
+# print("Hello")
+# time.sleep(3)
+# print("This is printed after 3 seconds")
            
+#time.strftime()
+
+t=time.localtime()
+formatted_time = time.strftime("%y-%m-%d %H:%M:%S", t)   
+
+# print("current date:,Current time, ", formatted_time)      
+print(formatted_time)
